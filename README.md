@@ -1,4 +1,4 @@
-## Hi there 👋
+## Un site web statique
 
 <!--
 **schentung/schentung** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
