@@ -75,7 +75,7 @@ function startTimer() {
 function startGame() {
 
     score = 0;
-    timeLeft = 10;
+    timeLeft = 30;
 
     scoreDisplay.textContent = score;
     timerDisplay.textContent = timeLeft;
