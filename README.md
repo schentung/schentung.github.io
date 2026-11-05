@@ -1,4 +1,4 @@
-## Un site web statique
+## Un site web statique pour un jeu de tir à la cible
 
 <!--
 **schentung/schentung** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
