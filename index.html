@@ -1,18 +1,43 @@
-<!doctype html>
 
+<!DOCTYPE html>
 <html lang="fr">
 
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width,
-	initial-scale=1">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Target Shooter</title>
 
-	<title>Jeu de reflexe</title>
-	<link rel="stylesheet" href="style.css">
-	<script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-	<h1>Vide pour l'instant.</h1>
-	<p>Une ligne sans but afin de tester l'environnement.</p>
+
+    <h1>Target Shooter</h1>
+
+    <div class="game-info">
+        <p>Score : <span id="score">0</span></p>
+        <p>Temps : <span id="timer">30</span>s</p>
+    </div>
+
+    <div id="game-area">
+
+	    <button id="start-button">
+	        Commencer
+	    </button>
+
+	    <div id="end-screen" style="display: none;">
+	        <h2>Partie terminée !</h2>
+
+	        <p>Ton score : <span id="final-score">0</span></p>
+
+	        <button id="restart-button">
+	            Rejouer
+	        </button>
+	    </div>
+
+	</div>
+
+    <script src="script.js"></script>
+
 </body>
+</html>
