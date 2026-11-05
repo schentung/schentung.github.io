@@ -226,7 +226,7 @@ function moveTarget(target, targetSize) {
 
     // La cible se déplace de plus en plus rapidement
     const movementSpeed = Math.max(
-        300,
+        600,
         900 - elapsedTime * 18
     );
 
